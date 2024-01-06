@@ -1,0 +1,138 @@
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Carrois Gothic', sans-serif;
+}
+
+#header {
+  width: 90%;
+  min-height: 20%;
+  background: #ffffff;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border-style: solid;
+
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+#content {
+  width: 90%;
+  min-height: 50%;
+
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px;
+  box-sizing: border-box;
+  border-style: solid;
+
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+#content2 {
+  width: 90%;
+  min-height: 50%;
+
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px;
+  box-sizing: border-box;
+  border-style: solid;
+
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+#footer {
+  width: 90%;
+  min-height: 10%;
+  background: #ffffff;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-style: solid;
+
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+a:link {
+  text-decoration: none;
+  color: #E02401;
+  background: #ffffff;
+  padding: 10px;
+  margin: 5px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #E02401;
+  background: #ffffff;
+  padding: 10px;
+  margin: 5px;
+}
+
+a:active {
+  text-decoration: none;
+  color: #E02401;
+  background: #ffffff;
+  padding: 10px;
+  margin: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F78812;
+  background: #ffffff;
+  padding: 10px;
+  margin: 5px;
+}
+
+
+
+h1 {
+   text-align: right;
+
+}
+
+h2 {
+  text-align: right;
+}
+
+/***********************************CLASS SELECTORS***************************/
+
+/****these are the three containers*****/
+
+.top-container {
+
+}
+
+.middle-container-left {
+
+
+
+}
+
+
+.middle-container-right {
+
+
+}
+.bottom-container {}
+
+body {
+  position: relative;
+}
+
+$('body').scrollspy({ target: '#navbar-example' })
